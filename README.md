@@ -3,13 +3,13 @@
 
 ## Prerequisites
 
-- [Vagrant](https://www.vagrantup.com/downloads) installed on your local machine.
+- [Vagrant](https://www.vagrantup.com/downloads) installed on my local machine.
 - [VirtualBox](https://www.virtualbox.org/wiki/Downloads) or another compatible provider for Vagrant.
-- Basic knowledge of command-line operations.
+
 
 ## Vagrant Configuration
 
-1. **Create a `Vagrantfile`**: This file defines the configuration for your Vagrant environment, including the box to use, network settings, and provisioning scripts.
+1. **Create a `Vagrantfile`**: This file defines the configuration the Vagrant environment, including the box to use, network settings, and provisioning scripts.
 
 ```ruby
 Vagrant.configure("2") do |config|
@@ -19,7 +19,6 @@ Vagrant.configure("2") do |config|
     vb.cpus = 8
   end
 
-  # Forward ports
   config.vm.network "forwarded_port", guest: 9933, host: 9933  # RPC endpoint
   config.vm.network "forwarded_port", guest: 9615, host: 9615  # Metrics endpoint
 
@@ -28,7 +27,7 @@ Vagrant.configure("2") do |config|
 end
 # Avail Light Client Setup
 
-## Instructions to Set Up
+
 
 Create and Configure Vagrant Environment:
 
