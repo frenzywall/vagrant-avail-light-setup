@@ -49,4 +49,4 @@ Test the RPC Endpoint:
 - From within the Vagrant machine, test the RPC endpoint by running `curl http://localhost:9933`.
 - Test the metrics endpoint by running `curl http://localhost:9615/metrics`.
 
-This setup should get the Avail Light Client up and running with the necessary configurations and services. If you encounter issues, ensure all dependencies are properly installed and the service is correctly configured.
+
