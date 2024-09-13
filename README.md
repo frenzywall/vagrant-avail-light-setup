@@ -6,7 +6,7 @@
 - [Vagrant](https://www.vagrantup.com/downloads) installed on my local machine.
 - [VirtualBox](https://www.virtualbox.org/wiki/Downloads) or another compatible provider for Vagrant.
 
-
+**To run this : use Vagrant up in the root directory.
 ## Vagrant Configuration
 
 1. **Create a `Vagrantfile`**: This file defines the configuration the Vagrant environment, including the box to use, network settings, and provisioning scripts.
